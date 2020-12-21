@@ -8,7 +8,7 @@ from .database import SessionLocal, engine
 
 import shortuuid
 
-SERVER_DOMAIN = 'https://short-url.io'
+SERVER_DOMAIN = 'http://127.0.0.1:8000'
 
 app = FastAPI()
 
@@ -25,7 +25,7 @@ def get_db():
 
 
 @app.get("/")
-def shorten_url():
+def welcome():
     return {'message': 'Welcome to Url shortener app.'}
 
 
@@ -33,6 +33,12 @@ def shorten_url():
 def get_urls_list(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
     db_url_list = crud.get_urls_list(db, skip=skip, limit=limit)
     return {'message': db_url_list}
+
+
+@app.get("/{short_url}")
+def get_original_url(short_url: str, db: Session = Depends(get_db)):
+    db_original_url = crud.find_original_url_by_short_url(db=db, short_url=str(f'{SERVER_DOMAIN}/{short_url}'))
+    return db_original_url[0]
 
 
 @app.post("/shorten")
