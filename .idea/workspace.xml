@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c272f6b0-e1be-40b6-8e80-a19c94c57953" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1lhbPt261Tm5a1MA4h0l0gnPjuP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c272f6b0-e1be-40b6-8e80-a19c94c57953" name="Default Changelist" comment="" />
+      <created>1608052249361</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608052249361</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.toml" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="733" y="234" key="SettingsEditor" timestamp="1608052493241">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="733" y="234" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1608052493241" />
+    <state x="896" y="303" width="670" height="676" key="search.everywhere.popup" timestamp="1608053720719">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state x="896" y="303" width="670" height="676" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1608053720719" />
+  </component>
+</project>
