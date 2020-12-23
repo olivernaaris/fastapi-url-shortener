@@ -19,14 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c272f6b0-e1be-40b6-8e80-a19c94c57953" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/crud.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/crud.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql_app.db" beforeDir="false" />
+    <list default="true" id="c272f6b0-e1be-40b6-8e80-a19c94c57953" name="Default Changelist" comment="Refactoring.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +41,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TF_FMT" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -58,6 +55,14 @@
       <option name="presentableId" value="Default" />
       <updated>1608052249361</updated>
     </task>
+    <task id="LOCAL-00001" summary="Refactoring.">
+      <created>1608735270856</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608735270856</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -74,11 +79,23 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Refactoring." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring." />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="864" y="125" width="828" height="895" key="DiffContextDialog" timestamp="1608738416840">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state x="864" y="125" width="828" height="895" key="DiffContextDialog/0.25.1792.1095@0.25.1792.1095" timestamp="1608738416840" />
     <state x="733" y="234" key="SettingsEditor" timestamp="1608052493241">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="733" y="234" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1608052493241" />
+    <state x="878" y="296" key="Vcs.Push.Dialog.v2" timestamp="1608735272511">
+      <screen x="0" y="25" width="1792" height="1095" />
+    </state>
+    <state x="878" y="296" key="Vcs.Push.Dialog.v2/0.25.1792.1095@0.25.1792.1095" timestamp="1608735272511" />
     <state x="896" y="303" width="670" height="676" key="search.everywhere.popup" timestamp="1608053720719">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
