@@ -44,10 +44,9 @@ def get_original_url(short_url: str, db: Session = Depends(get_db)):
 @app.post("/shorten")
 def create_short_url(req: schema.Url, db: Session = Depends(get_db)):
     original_url = req.url
-    db_original_url = crud.get_original_url(db=db, original_url=original_url)
-    if db_original_url:
-        return {'message': f'{original_url} is already shortened'}
-    url_id = shortuuid.uuid(name=original_url)[:8]
-    short_url = f'{SERVER_DOMAIN}/{url_id}'
+    db_both_urls = crud.get_both_urls(db=db, original_url=original_url)
+    if db_both_urls:
+        return {'message': f'{db_both_urls.original_url} is already shortened -- short Url is {db_both_urls.short_url}'}
+    short_url = f'{SERVER_DOMAIN}/{shortuuid.uuid(name=original_url)[:8]}'
     crud.create_short_url(db=db, original_url=original_url, short_url=short_url)
     return {'message': f'Url you want to shorten is {original_url} -- I created a short Url for you {short_url}'}
